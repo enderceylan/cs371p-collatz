@@ -1,0 +1,150 @@
+commit 052c8784e7ead1f7ada12e4a344b8f2b669ed2f9
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Tue Sep 8 20:36:39 2015 -0500
+
+    Added comments
+
+commit a789ffc83c9541de6837df06ef83111f6d18f4fc
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Tue Sep 8 20:27:58 2015 -0500
+
+    Changed test files
+
+commit b5ef86269f2a03c13e50e666c44669c915326247
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Tue Sep 8 19:31:23 2015 -0500
+
+    Implemented cache
+
+commit 65d7f60a5e93658d0bcb09c36031f4206f2c1d21
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sun Sep 6 17:06:21 2015 -0500
+
+    Added extra test cases
+
+commit 1c54eccb076d3132b8b36de5d4e62ce8a9647a9a
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sun Sep 6 14:27:40 2015 -0500
+
+    Added SphereCollatz.c++
+
+commit 36db2b59a00c226d2b845c58b33dba3417e4fb61
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sun Sep 6 11:49:19 2015 -0500
+
+    Successfully added and completed tests
+
+commit 0e0f4b7213d4f4a38cd022762958e7f8bbc7d9f6
+Merge: 9511636 9460550
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sat Sep 5 15:58:28 2015 -0500
+
+    Merge branch 'master' of https://github.com/enderceylan/cs371p-collatz
+
+commit 95116368a91b3b9fd0b4fa41f8d37b3becf9cb06
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sat Sep 5 15:55:48 2015 -0500
+
+    modified makefile
+
+commit 9460550913966e616dc7e43659a381285a16f21e
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Sat Sep 5 15:43:01 2015 -0500
+
+    Rename travis.yml to .travis.yml
+
+commit 5281ef7d316a0ca5db260804d9b82dcaf7a78655
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Sat Sep 5 15:35:37 2015 -0500
+
+    Create travis.yml
+
+commit fe944315465bf5e5802e6401d006d1b253a702a1
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Sat Sep 5 15:35:25 2015 -0500
+
+    Delete travis.yml
+
+commit 513cd6a1efc0e249a037a7716cd2ef04783cdc4d
+Author: Ender Ceylan <endcey95@gmail.com>
+Date:   Sat Sep 5 14:48:25 2015 -0500
+
+    Run make test and confirm expected success
+
+commit ca578da0a97c0f7404f66071d11cf73f58b20c07
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 16:11:19 2015 -0500
+
+    Changed EID
+
+commit 9e394c75a2e1bcd77433eb5a968f3e5456507b7e
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:26:17 2015 -0500
+
+    Create TestCollatz.out
+
+commit 70585c3b82b858fcd5f06d77cb758880c088f422
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:25:40 2015 -0500
+
+    Create TestCollatz.c++
+
+commit f9975fcf3a592ef3c6d234246da2cffbcb6419b0
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:25:06 2015 -0500
+
+    Create RunCollatz.out
+
+commit ee67807d249b50125580963be8c9130286434e4e
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:24:19 2015 -0500
+
+    Create RunCollatz.in
+
+commit bcb939ca27f37b8db5af5d8952d27f4778268de1
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:23:54 2015 -0500
+
+    Created RunCollatz.c++
+
+commit 6fe469efd19402e7db3a54f9e8e44584f7f9c1cc
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:22:29 2015 -0500
+
+    Created Collatz.c++
+
+commit 4d5dc9cd686cf1b10a78d0964edc4fad373f153a
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:21:58 2015 -0500
+
+    Created Collatz.h
+
+commit 3a2ae6b90d0cbc1ef99f4c1e476024ce8bed022c
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:21:09 2015 -0500
+
+    Created makefile
+
+commit 1fd36d528d3503ed39be20d85ec8dad5efb9d2c0
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:20:29 2015 -0500
+
+    Created travis.yml
+
+commit ff9c8d9b33b99414ddf7f6426daf8a038a675dc1
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:20:02 2015 -0500
+
+    Created .gitignore
+
+commit ae880c7ae07d313324782a3575036398ec558591
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Fri Sep 4 15:13:56 2015 -0500
+
+    Update README.md
+
+commit 4b81f98b7893ac2d0b69ac7f4b3ea367583c4de1
+Author: Ender Ceylan <enderceylan@users.noreply.github.com>
+Date:   Sat Aug 29 21:39:53 2015 -0500
+
+    Initial commit
