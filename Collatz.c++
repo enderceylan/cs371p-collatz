@@ -20,7 +20,7 @@
 using namespace std;
 
 #ifdef CACHE
-map<int, int> m;
+map<int, int> m;    // Hashmap used for cache
 #endif
 
 // ------------
@@ -56,12 +56,12 @@ int collatz_eval (int i, int j) {
         int cycles = 0;
 
         #ifdef CACHE
-        if (m.find(num) != m.end())
+        if (m.find(num) != m.end()) // Search for number in the hashmap to find number of cycles
         {
             cycles = m[num];
         }
 
-        else
+        else    // Manually calculate cycles if not found in the hashmap
         {
             #endif
             while (num >= 1)
@@ -81,7 +81,7 @@ int collatz_eval (int i, int j) {
                 cycles++;
             }
             #ifdef CACHE
-            m[num] = cycles;
+            m[num] = cycles;    // Add number to hashmap for later use
         }
         #endif
         if (cycles > max_cycles)
