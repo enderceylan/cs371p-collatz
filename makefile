@@ -1,9 +1,9 @@
 FILES :=                              \
     .travis.yml                       \
-   # collatz-tests/ec28767-RunCollatz.in   \
-   # collatz-tests/ec28767-RunCollatz.out  \
-   # collatz-tests/ec28767-TestCollatz.c++ \
-   # collatz-tests/ec28767-TestCollatz.out \
+    collatz-tests/ec28767-RunCollatz.in   \
+    collatz-tests/ec28767-RunCollatz.out  \
+    collatz-tests/ec28767-TestCollatz.c++ \
+    collatz-tests/ec28767-TestCollatz.out \
     Collatz.c++                       \
     Collatz.h                         \
     Collatz.log                       \
@@ -16,7 +16,7 @@ FILES :=                              \
 
 CXX        := g++-4.8
 CXXFLAGS   := -pedantic -std=c++11 -Wall
-LDFLAGS    := -lgtest -lgtest_main -pthread
+LDFLAGS    := -lgtest -lgtest_main -pthread -DCACHE
 GCOV       := gcov-4.8
 GCOVFLAGS  := -fprofile-arcs -ftest-coverage
 GPROF      := gprof

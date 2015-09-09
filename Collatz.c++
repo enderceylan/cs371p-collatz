@@ -13,10 +13,15 @@
 #include <sstream>  // istringstream
 #include <string>   // getline, string
 #include <utility>  // make_pair, pair
+#include <map>
 
 #include "Collatz.h"
 
 using namespace std;
+
+#ifdef CACHE
+map<int, int> m;
+#endif
 
 // ------------
 // collatz_read
@@ -40,34 +45,52 @@ int collatz_eval (int i, int j) {
         i = j;
         j = temp;
     }
+    if (i <= 0)
+    {
+        return 0;
+    }
     int max_cycles = 0;
     while (i <= j)
     {
         int num = i;
         int cycles = 0;
-        while (num >= 1)
+
+        #ifdef CACHE
+        if (m.find(num) != m.end())
         {
-            if (num % 2 == 0)
-            {
-                num = num / 2;
-            }
-            else if (num == 1)
-            {
-                num = 0;
-            }
-            else
-            {
-                num = (num*3) + 1;
-            }
-            cycles++;
+            cycles = m[num];
         }
+
+        else
+        {
+            #endif
+            while (num >= 1)
+            {
+                if (num % 2 == 0)
+                {
+                    num = num / 2;
+                }
+                else if (num == 1)
+                {
+                    num = 0;
+                }
+                else
+                {
+                    num = (num*3) + 1;
+                }
+                cycles++;
+            }
+            #ifdef CACHE
+            m[num] = cycles;
+        }
+        #endif
         if (cycles > max_cycles)
         {
             max_cycles = cycles;
         }
         i++;
     }
-    return max_cycles;}
+    return max_cycles;} 
 
 // -------------
 // collatz_print
